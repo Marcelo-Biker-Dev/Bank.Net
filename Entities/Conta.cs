@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Bank.Net.Entities
 {
-    public class Conta
+    public abstract class Conta
     {
         public List<AtividadesNaConta> transacoes = new List<AtividadesNaConta>();
 		protected List<Credito> movimentosNoSaldoDeCredito = new List<Credito>();
