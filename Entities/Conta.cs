@@ -6,7 +6,7 @@ namespace Bank.Net.Entities
     public class Conta
     {
         public List<AtividadesNaConta> transacoes = new List<AtividadesNaConta>();
-		protected LinkedList<Credito> movimentosNoSaldoDeCredito = new List<Credito>();
+		protected List<Credito> movimentosNoSaldoDeCredito = new List<Credito>();
 		protected static string inicioDeConta = "INICIO DE CONTA";
 		private protected string Nome { get; set; }
 		private protected string Id { get; set; }
