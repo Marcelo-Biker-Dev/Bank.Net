@@ -1,4 +1,5 @@
 using System;
+using Bank.Net.Enum;
 
 namespace Bank.Net.Entities
 {
